@@ -1,0 +1,39 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+.item{
+    margin-left: 100px;
+}
+.header{
+    background-color:gold;
+    display: flex;
+    justify-content: space-between;
+}
+body { 
+    background-color:rgb(255, 248, 187);
+
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    margin-top: 100px;
+}
+
+p,h2{
+    text-align: center;
+}
